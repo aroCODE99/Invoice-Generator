@@ -1,0 +1,42 @@
+{
+    "invoice_number": "INV-2025-001",
+    "invoice_date": "2025-10-30",
+    "due_date": "2025-11-15",
+
+    "bill_to": {
+	"name": "John Doe",
+	"address": "123 Main Street, Bangalore",
+	"email": "john.doe@example.com",
+	"phone": "+91 9876543210"
+    },
+
+    "company": {
+	"name": "TechServe Pvt Ltd",
+	"address": "Koramangala, Bangalore, India",
+	"email": "billing@techserve.com",
+	"phone": "+91 9876500000"
+    },
+
+    "items": [
+	{
+	    "description": "Backend Development Services",
+	    "quantity": 20,
+	    "unit_price": 1500
+	},
+	{
+	    "description": "Related to Database Something",
+	    "quantity": 10,
+	    "unit_price": 1000
+	},
+	{
+	    "description": "Database Optimization",
+	    "quantity": 5,
+	    "unit_price": 2000
+	}
+	
+    ],
+
+    "tax_percentage": 18,
+    "notes": "Thank you for your business! Payment is due within 15 days.",
+    "signature": "Authorized Signatory"
+}
